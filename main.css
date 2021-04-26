@@ -52,6 +52,7 @@ body {
     background: var(--third-blue);
     color: white;
     font-size: 35px;
+    border-radius: 5px 5px 0 0;
 }
 
 .counter__wrapper {
@@ -84,6 +85,7 @@ body {
     color: var(--secondary-blue);
     background: var(--third-blue);
     font-size: 25px;
+    border-radius: 0 0 5px 5px;
 }
 
 
@@ -110,6 +112,7 @@ body {
 .bio__header h2 {
     margin-right: 1rem;
     color: white;
+    border-radius: 5px 5px 0 0;
 }
 
 .bio__details {
@@ -156,11 +159,17 @@ body {
     background: var(--third-blue);
     margin: 0;
     padding: 1rem;
+    border-radius: 0 0 5px 5px;
 }
 
 .bio__footer .fab {
-    color: white;
+    color: var(--secondary-blue);
     font-size: 25px;
+}
+
+.bio__footer .fab:hover {
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
 }
 
 .main, .counter {
