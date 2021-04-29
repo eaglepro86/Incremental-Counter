@@ -182,7 +182,7 @@ body {
 
 
     .hero__wrapper {
-        
+        padding: 1rem;
         flex-direction: column-reverse;
     }
 
