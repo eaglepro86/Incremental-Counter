@@ -30,7 +30,7 @@ body {
 }
 
 .hero__wrapper {
-
+    padding: 1rem;
     width: 100vw;
     display: flex;
 }
